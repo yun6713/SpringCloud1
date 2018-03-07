@@ -13,7 +13,8 @@
     <module>SpringCloud1-service-ribbon</module>
     <module>SpringCloud1-ServiceHi2</module>
     <module>SpringCloud1-ServiceHi3</module>
-  </modules>
+    <module>SpringCloud1-service-feign</module>
+	</modules>
 	<repositories>
 		<repository>
 			<id>bonc-public</id>
