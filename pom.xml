@@ -14,6 +14,10 @@
     <module>SpringCloud1-ServiceHi2</module>
     <module>SpringCloud1-ServiceHi3</module>
     <module>SpringCloud1-service-feign</module>
+    <module>SpringCloud1-service-zuul</module>
+    <module>SpringCloud1-config-server</module>
+    <module>SpringCloud1-config-client</module>
+    <module>SpringCloud1-service-miya</module>
 	</modules>
 	<repositories>
 		<repository>
