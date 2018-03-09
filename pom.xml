@@ -38,8 +38,6 @@
 		<springfox-swagger.version>2.7.0</springfox-swagger.version>
 		<joda-time.version>2.9.9</joda-time.version>
 		<docker.plugin.version>0.4.13</docker.plugin.version>
-		<docker.image.prefix>bonc-ids</docker.image.prefix>
-		<docker.host>http://192.168.1.123:2375</docker.host>
 	</properties>
 	<dependencyManagement>
 		<dependencies>
@@ -98,6 +96,10 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-eureka</artifactId>
 		</dependency>
 	</dependencies>
 </project>
